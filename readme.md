@@ -73,13 +73,13 @@ This blog explains about the step-by-step instructions to create the following.
 
 ## 7. Load Account data
 
-<img src="images/06-load-location-data11.png">
-<img src="images/06-load-location-data12.png">
-<img src="images/06-load-location-data13.png">
-<img src="images/06-load-location-data14.png">
-<img src="images/06-load-location-data15.png">
-<img src="images/06-load-location-data16.png">
-<img src="images/06-load-location-data17.png">
+<img src="images/06-load-account-data11.png">
+<img src="images/06-load-account-data12.png">
+<img src="images/06-load-account-data13.png">
+<img src="images/06-load-account-data14.png">
+<img src="images/06-load-account-data15.png">
+<img src="images/06-load-account-data16.png">
+<img src="images/06-load-account-data17.png">
 
 ## 8. Location Performance
 <img src="images/07-location-performance1.png">
