@@ -16,21 +16,67 @@ This blog explains about the step-by-step instructions to create the following.
 - [4. Account ](#4-Account)
 - [5. Data](#5-Data)
 
-## 1. Group
+## 1. Create Group and SubGroup
 
+
+#### 1.1 Create Group
+
+1. Click on `Manage > Groups` 
 <img src="images/01-group1.png">
+
+It shows the Groups page.
+
+2. Click on `Create New Group` button.
+
 <img src="images/01-group2.png">
+
+3. Fill in details as below. 
+
+- Group Type :  `Classification`
+- Belongs To : The Org name of the account. Here `Demo Corp D1`
+- Name :  Give any name for the Group. Ex: `G1-Telco`
+- Report Percent :  100
+
+4. Click on `Save` button.
 <img src="images/01-group3.png">
+
+A new Group called `G1-Telco` got created.
 <img src="images/01-group4.png">
+
+#### 1.2 Create Sub Group 1
+
+Here are we are going to create a new SubGroup called `G1-Telco-CellTowers` under the group `G1-Telco`
+
+1. Fill in details as below. 
+
+- Group Type :  `Classification`
+- Belongs To : The Org name of the account. Here `Demo Corp D1`
+- Part Of :  `G1-Telco` (the parent group)
+- Name :  Give any name for the Group. Ex: `G1-Telco-CellTowers`
+- Report Percent :  100
+
 <img src="images/01-group5.png">
+
+A new Sub Group called `G1-Telco-CellTowers` got created.
+
 <img src="images/01-group6.png">
+
+#### 1.3 Create Sub Group 2
+
+Here are we are going to create a new SubGroup called `G1-Telco-DataCentres` under the group `G1-Telco`
+
+1. Fill in details as below. 
+
+- Part Of :  `G1-Telco` (the parent group)
+- Name :  Give any name for the Group. Ex: `G1-Telco-DataCentres`
+
 <img src="images/01-group7.png">
+
+A new Sub Group called `G1-Telco-DataCentres` got created.
+
 <img src="images/01-group8.png">
 
-## 2. Sub Group
-
-
-## 3. Location
+## 2. Location
 
 <img src="images/02-location11.png">
 <img src="images/02-location12.png">
@@ -46,7 +92,7 @@ This blog explains about the step-by-step instructions to create the following.
 <img src="images/02-location22.png">
 <img src="images/02-location23.png">
 
-## 4. Account
+## 3. Account
 <img src="images/03-account11.png">
 <img src="images/03-account12.png">
 <img src="images/03-account13.png">
@@ -60,10 +106,10 @@ This blog explains about the step-by-step instructions to create the following.
 <img src="images/03-account21.png">
 <img src="images/03-account22.png">
 
-## 5. Group Summary
+## 4. Group Summary
 <img src="images/04-group-summary.png">
 
-## 6. Location Details
+## 5. Location Details
 
 <img src="images/05-location-detail1.png">
 <img src="images/05-location-detail2.png">
@@ -71,7 +117,7 @@ This blog explains about the step-by-step instructions to create the following.
 <img src="images/05-location-detail4.png">
 <img src="images/05-location-detail5.png">
 
-## 7. Load Account data
+## 6. Load Account data
 
 <img src="images/06-load-account-data11.png">
 <img src="images/06-load-account-data12.png">
@@ -81,7 +127,7 @@ This blog explains about the step-by-step instructions to create the following.
 <img src="images/06-load-account-data16.png">
 <img src="images/06-load-account-data17.png">
 
-## 8. Location Performance
+## 7. Location Performance
 <img src="images/07-location-performance1.png">
 
 <img src="images/07-location-performance2.png">
