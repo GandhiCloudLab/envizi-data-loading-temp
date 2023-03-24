@@ -55,6 +55,8 @@ Here are we are going to create a new SubGroup called `G1-Telco-CellTowers` unde
 - Name :  Give any name for the Group. Ex: `G1-Telco-CellTowers`
 - Report Percent :  100
 
+2. Click on `Save` button.
+
 <img src="images/01-group5.png">
 
 A new Sub Group called `G1-Telco-CellTowers` got created.
@@ -78,18 +80,58 @@ A new Sub Group called `G1-Telco-DataCentres` got created.
 
 ## 2. Location
 
+#### 2.1 Create Location 1
+
+1. Click on `Manage > Locations` 
 <img src="images/02-location11.png">
+
+It shows the Locations page.
+
+2. Click on `Create New Location` button.
+
 <img src="images/02-location12.png">
+
+3. Fill in details as below. 
+
+- Location Type :  `Cell Tower`
+- Name :  Give any name for the Location. Ex: `G1-Tower-2000`
+- Country :  `United States`
+- Region :  `illinois : state United States`
+- Group :  Choose the sub group created before. Ex:  `G1-Telco-CellTowers`
+
+4. Click on `Save` button.
+
 <img src="images/02-location13.png">
 <img src="images/02-location14.png">
+
+A new Location called `G1-Towers-2000` got created.
 <img src="images/02-location15.png">
+
+#### 2.2 Create Location 2
+
+Similarly create a new location called `G1-Tower-2001` under the group  `G1-Telco-CellTowers`
+
 <img src="images/02-location16.png">
 <img src="images/02-location17.png">
+
+#### 2.3 Create Location 3
+
+Similarly create a new location called `G1-DC-2000` under the group  `G1-Telco-DataCenters`
+
 <img src="images/02-location18.png">
 <img src="images/02-location19.png">
-<img src="images/02-location20.png">
+
+#### 2.3 Create Location 4
+
+Similarly create a new location called `G1-DC-2001` under the group  `G1-Telco-DataCenters`
+
 <img src="images/02-location21.png">
 <img src="images/02-location22.png">
+
+#### 2.4 Location List
+
+All the above crated Locations got created and available here..
+
 <img src="images/02-location23.png">
 
 ## 3. Account
