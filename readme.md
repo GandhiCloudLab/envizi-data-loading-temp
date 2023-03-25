@@ -1,6 +1,6 @@
-# Envizi Data Loading using UI
+# Creating Org Hierarchy and load data in Envizi via UI
 
-This blog explains about creating Groups, Sub Groups, Locations, and Accounts. Also it explains about  loading data into the accounts and view the emissions summary.
+This blog explains about creating Org Hierarchy with Groups, Sub Groups, Locations, and Accounts in Envizi via the UI console. Also it explains about loading data into the accounts and view the emissions details.
 
 ## Contents
 
@@ -18,7 +18,7 @@ The objective of this blog is to create an Org Hierarchy as like the below with 
 
 ## 1. Create Group and SubGroup
 
-#### 1.1 Create Group
+### 1.1 Create Group
 
 1. Click on `Manage > Groups` 
 <img src="images/01-group1.png">
@@ -42,7 +42,7 @@ It shows the Groups page.
 A new Group called `G1-Telco` got created.
 <img src="images/01-group4.png">
 
-#### 1.2 Create Sub Group 1
+### 1.2 Create Sub Group 1
 
 Here are we are going to create a new SubGroup called `G1-Telco-CellTowers` under the group `G1-Telco`
 
@@ -62,7 +62,7 @@ A new Sub Group called `G1-Telco-CellTowers` got created.
 
 <img src="images/01-group6.png">
 
-#### 1.3 Create Sub Group 2
+### 1.3 Create Sub Group 2
 
 Here are we are going to create a new SubGroup called `G1-Telco-DataCentres` under the group `G1-Telco`
 
@@ -79,8 +79,9 @@ A new Sub Group called `G1-Telco-DataCentres` got created.
 
 ## 2. Location
 
-#### 2.1 Create Location 1
+We are going to create 4 locations.
 
+### 2.1 Create Location 1
 
 1. Click on `Manage > Locations` 
 <img src="images/02-location11.png">
@@ -107,36 +108,38 @@ It shows the Locations page.
 A new Location called `G1-Towers-2000` got created.
 <img src="images/02-location15.png">
 
-#### 2.2 Create Location 2
+### 2.2 Create Location 2
 
 Similarly create a new location called `G1-Tower-2001` under the group  `G1-Telco-CellTowers`
 
 <img src="images/02-location16.png">
 <img src="images/02-location17.png">
 
-#### 2.3 Create Location 3
+### 2.3 Create Location 3
 
 Similarly create a new location called `G1-DC-2000` under the group  `G1-Telco-DataCenters`
 
 <img src="images/02-location18.png">
 <img src="images/02-location19.png">
 
-#### 2.3 Create Location 4
+### 2.3 Create Location 4
 
 Similarly create a new location called `G1-DC-2001` under the group  `G1-Telco-DataCenters`
 
 <img src="images/02-location21.png">
 <img src="images/02-location22.png">
 
-#### 2.4 Location List
+### 2.4 Location List
 
-All the above crated Locations got created and available here..
+All the above crated Locations got listed here.
 
 <img src="images/02-location23.png">
 
 ## 3. Create Account
 
-#### 3.1 Create Account 1
+We are going to create 6 Accounts.
+
+### 3.1 Create Account 1
 
 1. Click on `Manage > Account` 
 <img src="images/03-account11.png">
@@ -164,7 +167,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 <img src="images/03-account15.png">
 
-#### 3.2 Create Account 2
+### 3.2 Create Account 2
 
 1. Fill in the details as below. 
 
@@ -176,7 +179,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 2. Click on `Save` button.
 
-#### 3.3 Create Account 3
+### 3.3 Create Account 3
 
 1. Fill in the details as below. 
 
@@ -188,7 +191,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 2. Click on `Save` button.
 
-#### 3.4 Create Account 4
+### 3.4 Create Account 4
 
 1. Fill in the details as below. 
 
@@ -201,7 +204,7 @@ The newly created account looks like this in the Org Hiearchy section
 2. Click on `Save` button.
 
 
-#### 3.5 Create Account 5
+### 3.5 Create Account 5
 
 1. Fill in the details as below. 
 
@@ -214,7 +217,7 @@ The newly created account looks like this in the Org Hiearchy section
 2. Click on `Save` button.
 
 
-#### 3.6 Create Account 6
+### 3.6 Create Account 6
 
 1. Fill in the details as below. 
 
@@ -227,9 +230,9 @@ The newly created account looks like this in the Org Hiearchy section
 2. Click on `Save` button.
 
 
-#### 3.7 Location List
+### 3.7 Account List
 
-All the above crated Accounts got created and available here..
+All the above created Accounts got listed here..
 
 <img src="images/03-account21.png">
 
@@ -240,9 +243,10 @@ Here is the Org hiearchy showing the above created accounts under the correspond
 
 <img src="images/03-account22.png">
 
-## 4. Group Summary
+## 4. Group Summary Before loading Data
 
-Here is the group summary of the above created group `G1-Telco`. 
+Here is the group summary of the above created group `G1-Telco`. before loading the data.
+
 <img src="images/04-group-summary.png">
 
 ## 5. Location Details
