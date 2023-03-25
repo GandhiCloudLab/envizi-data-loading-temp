@@ -82,6 +82,7 @@ A new Sub Group called `G1-Telco-DataCentres` got created.
 
 #### 2.1 Create Location 1
 
+
 1. Click on `Manage > Locations` 
 <img src="images/02-location11.png">
 
@@ -134,24 +135,120 @@ All the above crated Locations got created and available here..
 
 <img src="images/02-location23.png">
 
-## 3. Account
+## 3. Create Account
+
+#### 3.1 Create Account 1
+
+1. Click on `Manage > Account` 
 <img src="images/03-account11.png">
+
+It shows the Account page.
+
+2. Click on `Create New Account` button.
+
 <img src="images/03-account12.png">
+
+3. Fill in details as below. 
+
+- Location : Choose the above created location. Ex: `G1-Tower-2000`
+- Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
+- Name :  Give any name for the Group. Ex: `G1-Tower-2000-Elec-01`
+
+4. Click on `Save` button.
+
 <img src="images/03-account13.png">
+
+A new Account called `Electricity - Total kWh and Cost` got created under the location `G1-Tower-2000`
 <img src="images/03-account14.png">
+
+The newly created account looks like this in the Org Hiearchy section
+
 <img src="images/03-account15.png">
+
+#### 3.2 Create Account 2
+
+1. Fill in details as below. 
+
+- Location : Choose the above created location. Ex: `G1-Tower-2001`
+- Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
+- Name :  Give any name for the Group. Ex: `G1-Tower-2001-Elec-01`
+
 <img src="images/03-account16.png">
+
+2. Click on `Save` button.
+
+#### 3.3 Create Account 3
+
+1. Fill in details as below. 
+
+- Location : Choose the above created location. Ex: `G1-DC-2000`
+- Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
+- Name :  Give any name for the Group. Ex: `G1-DC-2000-Elec-01`
+
 <img src="images/03-account17.png">
+
+2. Click on `Save` button.
+
+#### 3.4 Create Account 4
+
+1. Fill in details as below. 
+
+- Location : Choose the above created location. Ex: `G1-DC-2001`
+- Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
+- Name :  Give any name for the Group. Ex: `G1-DC-2001-Elec-01`
+
 <img src="images/03-account18.png">
+
+2. Click on `Save` button.
+
+
+#### 3.5 Create Account 5
+
+1. Fill in details as below. 
+
+- Location : Choose the above created location. Ex: `G1-DC-2000`
+- Account Style :  Choose an electricy type : `Diesel Transport - miles`
+- Name :  Give any name for the Group. Ex: `G1-DC-2000-Diesel-01`
+
 <img src="images/03-account19.png">
+
+2. Click on `Save` button.
+
+
+#### 3.6 Create Account 6
+
+1. Fill in details as below. 
+
+- Location : Choose the above created location. Ex: `G1-DC-2001`
+- Account Style :  Choose an electricy type : `Diesel Transport - miles`
+- Name :  Give any name for the Group. Ex: `G1-DC-2001-Diesel-01`
+
 <img src="images/03-account20.png">
+
+2. Click on `Save` button.
+
+
+#### 3.7 Location List
+
+All the above crated Accounts got created and available here..
+
 <img src="images/03-account21.png">
+
+
+#### 3.8 Org Hiearchy 
+
+Here is the Org hiearchy showing the above created accounts under the corresponding locations.
+
 <img src="images/03-account22.png">
 
 ## 4. Group Summary
+
+Here is the group summary of the above created group `G1-Telco`. 
 <img src="images/04-group-summary.png">
 
 ## 5. Location Details
+
+Here is the location details of the above created location `G1-DC-2000` that shows emissions data as empty. 
 
 <img src="images/05-location-detail1.png">
 <img src="images/05-location-detail2.png">
@@ -161,11 +258,40 @@ All the above crated Locations got created and available here..
 
 ## 6. Load Account data
 
+1. Select the account from the left panel. 
+
 <img src="images/06-load-account-data11.png">
+
+Account summary get displayed.
+
+2. Click on `Track > Records` 
+
 <img src="images/06-load-account-data12.png">
+
+3. Click on `Capture > Data` 
+
 <img src="images/06-load-account-data13.png">
+
+4. Fill in details as below. 
+- Start Period : Enter the starting period of the data
+- End Period : Enter the ending period of the data
+- Total Electricity :  Enter the total electricity
+- Total Cost :  Enter the total cost
+
+The total value would be split across to each month available in between the given period.
+
+5. Click on `Save` button.
+
 <img src="images/06-load-account-data14.png">
+
+The record saved successfuly.
+
+6. Click on `Monthly Data` button.
+
 <img src="images/06-load-account-data15.png">
+
+The total value would be split across each month is shown here.
+
 <img src="images/06-load-account-data16.png">
 <img src="images/06-load-account-data17.png">
 
@@ -174,7 +300,6 @@ All the above crated Locations got created and available here..
 
 <img src="images/07-location-performance2.png">
 <img src="images/07-location-performance3.png">
-
 
 ## 9. Account Summary
 <img src="images/08-account-summary1.png">
