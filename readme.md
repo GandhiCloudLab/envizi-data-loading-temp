@@ -1,12 +1,6 @@
-# Envizi Data Loading
+# Envizi Data Loading using UI
 
-This blog explains about the step-by-step instructions to create the following.
-
-- Group
-- Sub Group
-- Location
-- Account
-- Data
+This blog explains about creating Groups, Sub Groups, Locations, and Accounts. Also it explains about  loading data into the accounts and view the emissions summary.
 
 ## Contents
 
@@ -16,8 +10,13 @@ This blog explains about the step-by-step instructions to create the following.
 - [4. Account ](#4-Account)
 - [5. Data](#5-Data)
 
-## 1. Create Group and SubGroup
+## Objective
 
+The objective of this blog is to create an Org Hierarchy as like the below with a group, 2 sub groups, 4 locations and 6 accounts through the Envizi console UI. Then load some sample data into the accounts and view the Account Summary and emissions details.
+
+<img src="images/00-org-hiearchy.png">
+
+## 1. Create Group and SubGroup
 
 #### 1.1 Create Group
 
@@ -30,7 +29,7 @@ It shows the Groups page.
 
 <img src="images/01-group2.png">
 
-3. Fill in details as below. 
+3. Fill in the details as below. 
 
 - Group Type :  `Classification`
 - Belongs To : The Org name of the account. Here `Demo Corp D1`
@@ -47,7 +46,7 @@ A new Group called `G1-Telco` got created.
 
 Here are we are going to create a new SubGroup called `G1-Telco-CellTowers` under the group `G1-Telco`
 
-1. Fill in details as below. 
+1. Fill in the details as below. 
 
 - Group Type :  `Classification`
 - Belongs To : The Org name of the account. Here `Demo Corp D1`
@@ -67,7 +66,7 @@ A new Sub Group called `G1-Telco-CellTowers` got created.
 
 Here are we are going to create a new SubGroup called `G1-Telco-DataCentres` under the group `G1-Telco`
 
-1. Fill in details as below. 
+1. Fill in the details as below. 
 
 - Part Of :  `G1-Telco` (the parent group)
 - Name :  Give any name for the Group. Ex: `G1-Telco-DataCentres`
@@ -92,7 +91,7 @@ It shows the Locations page.
 
 <img src="images/02-location12.png">
 
-3. Fill in details as below. 
+3. Fill in the details as below. 
 
 - Location Type :  `Cell Tower`
 - Name :  Give any name for the Location. Ex: `G1-Tower-2000`
@@ -148,7 +147,7 @@ It shows the Account page.
 
 <img src="images/03-account12.png">
 
-3. Fill in details as below. 
+3. Fill in the details as below. 
 
 - Location : Choose the above created location. Ex: `G1-Tower-2000`
 - Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
@@ -167,7 +166,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 #### 3.2 Create Account 2
 
-1. Fill in details as below. 
+1. Fill in the details as below. 
 
 - Location : Choose the above created location. Ex: `G1-Tower-2001`
 - Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
@@ -179,7 +178,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 #### 3.3 Create Account 3
 
-1. Fill in details as below. 
+1. Fill in the details as below. 
 
 - Location : Choose the above created location. Ex: `G1-DC-2000`
 - Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
@@ -191,7 +190,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 #### 3.4 Create Account 4
 
-1. Fill in details as below. 
+1. Fill in the details as below. 
 
 - Location : Choose the above created location. Ex: `G1-DC-2001`
 - Account Style :  Choose an electricy type : `Electricity - Total kWh and Cost`
@@ -204,7 +203,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 #### 3.5 Create Account 5
 
-1. Fill in details as below. 
+1. Fill in the details as below. 
 
 - Location : Choose the above created location. Ex: `G1-DC-2000`
 - Account Style :  Choose an electricy type : `Diesel Transport - miles`
@@ -217,7 +216,7 @@ The newly created account looks like this in the Org Hiearchy section
 
 #### 3.6 Create Account 6
 
-1. Fill in details as below. 
+1. Fill in the details as below. 
 
 - Location : Choose the above created location. Ex: `G1-DC-2001`
 - Account Style :  Choose an electricy type : `Diesel Transport - miles`
@@ -262,7 +261,7 @@ Here is the location details of the above created location `G1-DC-2000` that sho
 
 <img src="images/06-load-account-data11.png">
 
-Account summary get displayed.
+Account summary get displayed as below.
 
 2. Click on `Track > Records` 
 
@@ -272,19 +271,19 @@ Account summary get displayed.
 
 <img src="images/06-load-account-data13.png">
 
-4. Fill in details as below. 
+4. Fill in the details as below. 
 - Start Period : Enter the starting period of the data
 - End Period : Enter the ending period of the data
 - Total Electricity :  Enter the total electricity
 - Total Cost :  Enter the total cost
 
-The total value would split across to each month available in between the given period.
+The total value would split across each month available in between the given period.
 
 5. Click on `Save` button.
 
 <img src="images/06-load-account-data14.png">
 
-The record saved successfuly.
+The record saved successfuly as below.
 
 6. Click on `Monthly Data` button.
 
@@ -328,7 +327,7 @@ The `Account Summary` page is displayed.
 
 <img src="images/09-load-account-data12.png">
 
-3. Fill in details as below. 
+3. Fill in the details as below. 
 - Start Period : Enter the starting period of the data
 - End Period : Enter the ending period of the data
 - Distance Travelled :  Enter the distance travelled
@@ -366,10 +365,10 @@ The `Monthly Data` list is displayed.
 
 <img src="images/10-load-account-data12.png">
 
-3. Fill in details as below. 
+3. Fill in the details as below. 
 - Start Period : Enter the starting period of the data
 - End Period : Enter the ending period of the data
-- Distance Travelled :  Enter the distance travelled
+- Total Electricity :  Enter the total electricity value
 - Total Cost :  Enter the total cost
 
 4. Click on `Save` button.
