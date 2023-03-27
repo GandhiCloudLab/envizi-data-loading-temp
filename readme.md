@@ -263,6 +263,8 @@ Here is the group summary of the above created group `G1-Telco`. before loading 
 
 <img src="images/04-group-summary.png">
 
+</details>
+
 ## 5. Location Details
 
 <details><summary>CLICK ME</summary>
