@@ -8,12 +8,12 @@ This blog explains about creating Org Hierarchy with Groups, Sub Groups, Locatio
 - [2. Create Location](#2-Create-Location)
 - [3. Create Account ](#3-Create-Account)
 - [4. Group Summary Before loading Data ](#4-Group-Summary-Before-loading-Data)
-- [5. Location Details ](#5-Location -Details)
+- [5. Location Details ](#5-Location-Details)
 - [6. Load Account data ](#6-Load-Account-data)
 - [7. Location Performance ](#7-Location-Performance)
 - [8. Account Summary ](#8-Account-Summary)
-- [9. Load Account data 2 ](#9-Load-Account-data-2)
-- [10. Load Account data 3 ](#10-Load-Account-data-3)
+- [9. Load Account data 2 ](#9-Load-Account-data2)
+- [10. Load Account data 3 ](#10-Load-Account-data3)
 
 
 ## Objective
@@ -23,8 +23,6 @@ The objective of this blog is to create an Org Hierarchy as like the below with 
 <img src="images/00-org-hiearchy.png">
 
 ## 1. Create Group and SubGroup
-
-<details><summary>CLICK ME</summary>
 
 ### 1.1 Create Group
 
@@ -85,11 +83,7 @@ A new Sub Group called `G1-Telco-DataCentres` got created.
 
 <img src="images/01-group8.png">
 
-</details>
-
 ## 2. Create Location
-
-<details><summary>CLICK ME</summary>
 
 We are going to create 4 locations.
 
@@ -147,11 +141,7 @@ All the above crated Locations got listed here.
 
 <img src="images/02-location23.png">
 
-</details>
-
 ## 3. Create Account
-
-<details><summary>CLICK ME</summary>
 
 We are going to create 6 Accounts.
 
@@ -259,21 +249,14 @@ Here is the Org hiearchy showing the above created accounts under the correspond
 
 <img src="images/03-account22.png">
 
-</details>
 
 ## 4. Group Summary Before loading Data
-
-<details><summary>CLICK ME</summary>
 
 Here is the group summary of the above created group `G1-Telco`. before loading the data.
 
 <img src="images/04-group-summary.png">
 
-</details>
-
 ## 5. Location Details
-
-<details><summary>CLICK ME</summary>
 
 Here is the location details of the above created location `G1-DC-2000` that shows emissions data as empty. 
 
@@ -283,11 +266,7 @@ Here is the location details of the above created location `G1-DC-2000` that sho
 <img src="images/05-location-detail4.png">
 <img src="images/05-location-detail5.png">
 
-</details>
-
 ## 6. Load Account data
-
-<details><summary>CLICK ME</summary>
 
 1. Select the account from the left panel. 
 
@@ -325,11 +304,8 @@ The total value split across each month is shown here.
 
 <img src="images/06-load-account-data16.png">
 <img src="images/06-load-account-data17.png">
-</details>
 
 ## 7. Location Performance
-
-<details><summary>CLICK ME</summary>
 
 1. Open the location `G1-DC-2000` from the Org Hierarchy.
 
@@ -344,8 +320,6 @@ The location performance details is displayed.
 
 ## 8. Account Summary
 
-<details><summary>CLICK ME</summary>
-
 1. Open the Account `G1-DC-2000-Elec-01` from the Org Hierarchy.
 
 <img src="images/08-account-summary1.png">
@@ -354,11 +328,8 @@ The `Account Summary` page is displayed.
 
 <img src="images/08-account-summary2.png">
 <img src="images/08-account-summary3.png">
-</details>
 
 ## 9.  Load Account data 2
-
-<details><summary>CLICK ME</summary>
 
 1. Open the Account from the Org Hierarchy.
 
@@ -395,11 +366,7 @@ The `Monthly Data` list is displayed.
 <img src="images/09-load-account-data17.png">
 <img src="images/09-load-account-data18.png">
 
-</details>
-
 ## 10.  Load Account data 3
-
-<details><summary>CLICK ME</summary>
 
 1. Open the Account from the Org Hierarchy.
 
@@ -436,5 +403,3 @@ The `Monthly Data` list is displayed.
 
 <img src="images/10-load-account-data17.png">
 <img src="images/10-load-account-data18.png">
-
-</details>
