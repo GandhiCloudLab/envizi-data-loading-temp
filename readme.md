@@ -4,11 +4,17 @@ This blog explains about creating Org Hierarchy with Groups, Sub Groups, Locatio
 
 ## Contents
 
-- [1. Group](#1-Group)
-- [2. Sub Group](#2-Sub-Group)
-- [3. Location ](#3-Location)
-- [4. Account ](#4-Account)
-- [5. Data](#5-Data)
+- [1. Create Group and SubGroup](#1-Create-Group-and-SubGroup)
+- [2. Create Location](#2-Create-Location)
+- [3. Create Account ](#3-Create-Account)
+- [4. Group Summary Before loading Data ](#4-Group-Summary-Before-loading-Data)
+- [5. Location Details ](#5-Location -Details)
+- [6. Load Account data ](#6-Load-Account-data)
+- [7. Location Performance ](#7-Location-Performance)
+- [8. Account Summary ](#8-Account-Summary)
+- [9. Load Account data 2 ](#9-Load-Account-data-2)
+- [10. Load Account data 3 ](#10-Load-Account-data-3)
+
 
 ## Objective
 
@@ -81,7 +87,7 @@ A new Sub Group called `G1-Telco-DataCentres` got created.
 
 </details>
 
-## 2. Location
+## 2. Create Location
 
 <details><summary>CLICK ME</summary>
 
@@ -257,9 +263,9 @@ Here is the Org hiearchy showing the above created accounts under the correspond
 
 ## 4. Group Summary Before loading Data
 
-Here is the group summary of the above created group `G1-Telco`. before loading the data.
-
 <details><summary>CLICK ME</summary>
+
+Here is the group summary of the above created group `G1-Telco`. before loading the data.
 
 <img src="images/04-group-summary.png">
 
