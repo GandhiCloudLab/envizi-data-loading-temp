@@ -80,7 +80,6 @@ A new Sub Group called `G1-Telco-DataCentres` got created.
 <img src="images/01-group8.png">
 
 </details>
-<details><summary>CLICK ME</summary>
 
 ## 2. Location
 
