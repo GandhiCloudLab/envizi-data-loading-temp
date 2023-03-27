@@ -12,8 +12,8 @@ This blog explains about creating Org Hierarchy with Groups, Sub Groups, Locatio
 - [6. Load Account data ](#6-Load-Account-data)
 - [7. Location Performance ](#7-Location-Performance)
 - [8. Account Summary ](#8-Account-Summary)
-- [9. Load Account data 2 ](#9-Load-Account-data2)
-- [10. Load Account data 3 ](#10-Load-Account-data3)
+- [9. Load Account data 2 ](#9-Load-Account-data-2)
+- [10. Load Account data 3 ](#10-Load-Account-data-3)
 
 
 ## Objective
@@ -329,7 +329,7 @@ The `Account Summary` page is displayed.
 <img src="images/08-account-summary2.png">
 <img src="images/08-account-summary3.png">
 
-## 9.  Load Account data 2
+## 9. Load Account data 2
 
 1. Open the Account from the Org Hierarchy.
 
@@ -366,7 +366,7 @@ The `Monthly Data` list is displayed.
 <img src="images/09-load-account-data17.png">
 <img src="images/09-load-account-data18.png">
 
-## 10.  Load Account data 3
+## 10. Load Account data 3
 
 1. Open the Account from the Org Hierarchy.
 
